@@ -57,7 +57,7 @@ export function CalculatorModal({ productType }: CalculatorModalProps) {
 ${selectedVariant}
 Dimensões: ${width}m x ${height}m (${area.toFixed(2)}m²)
 Valor calculado: R$ ${total.toFixed(2)}`
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/5522997179616?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
