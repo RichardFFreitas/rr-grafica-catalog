@@ -64,7 +64,7 @@ Valor calculado: R$ ${total.toFixed(2)}`
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" size="sm" className="border-cyan-400 text-cyan-600 hover:bg-cyan-50 bg-transparent">
+        <Button variant="outline" size="sm" className="border-cyan-400 text-cyan-600 hover:text-cyan-900 hover:bg-cyan-50 bg-transparent">
           <Calculator className="w-4 h-4 mr-1" />
           Calcular
         </Button>

@@ -80,6 +80,19 @@ export default function ProductCatalog() {
       return "/images/lona-normal.png"
     }
 
+    if (name.includes("banner personalizado")) {
+      return "/images/banner-personalizado.png"
+    }
+
+    if (name.includes("lona personalizada")) {
+      return "/images/lona-personalizada.png"
+    }
+
+    if (name.includes("adesivo personalizado")) {
+      return "/images/adesivo-personalizado.png"
+    }
+
+
     return "/images/product-example.png"
   }
 
@@ -346,7 +359,7 @@ export default function ProductCatalog() {
                       <Button
                         variant="outline"
                         size="sm"
-                        className="border-cyan-400 text-cyan-600 hover:bg-cyan-50 bg-transparent"
+                        className="border-cyan-400 text-cyan-600 hover:text-cyan-900 hover:bg-cyan-50 bg-transparent"
                       >
                         <Quote className="w-4 h-4 mr-1" />
                         Orçar
